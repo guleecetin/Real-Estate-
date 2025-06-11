@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\gulen\\source\\repos\\RealEstate_Dapper_Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7A494CFE-E4EF-4693-98D3-F82DC68A100A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\gulen\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\repositories\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A494CFE-E4EF-4693-98D3-F82DC68A100A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\repositories\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A494CFE-E4EF-4693-98D3-F82DC68A100A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\gulen\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A494CFE-E4EF-4693-98D3-F82DC68A100A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A494CFE-E4EF-4693-98D3-F82DC68A100A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\gulen\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7A494CFE-E4EF-4693-98D3-F82DC68A100A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7A494CFE-E4EF-4693-98D3-F82DC68A100A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\gulen\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\repositories\\categoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A494CFE-E4EF-4693-98D3-F82DC68A100A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\repositories\\categoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A494CFE-E4EF-4693-98D3-F82DC68A100A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\gulen\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\realestate_dapper_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7A494CFE-E4EF-4693-98D3-F82DC68A100A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\realestate_dapper_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7A494CFE-E4EF-4693-98D3-F82DC68A100A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|c:\\users\\gulen\\source\\repos\\realestate_dapper_api\\realestate_dapper_api\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A494CFE-E4EF-4693-98D3-F82DC68A100A}|RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj|solutionrelative:realestate_dapper_api\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 835,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,41 +42,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gulen\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Repositories\\CategoryRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Repositories\\CategoryRepository\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\gulen\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Repositories\\CategoryRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Repositories\\CategoryRepository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:13:31.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gulen\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Repositories\\CategoryRepository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Repositories\\CategoryRepository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\gulen\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Repositories\\CategoryRepository\\CategoryRepository.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Repositories\\CategoryRepository\\CategoryRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwDwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:13:55.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\gulen\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Controllers\\CategoriesController.cs",
               "ToolTip": "C:\\Users\\gulen\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "RealEstate_Dapper_Api\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T13:24:51.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\gulen\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\appsettings.json",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\gulen\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\appsettings.json",
-              "RelativeToolTip": "RealEstate_Dapper_Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-05T13:30:34.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RealEstate_Dapper_Api",
-              "DocumentMoniker": "C:\\Users\\gulen\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj",
-              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj",
-              "ToolTip": "C:\\Users\\gulen\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj",
-              "RelativeToolTip": "RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-05T13:29:44.421Z",
+              "DocumentIndex": 3,
+              "Title": "UpdateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\gulen\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\CategoryDtos\\UpdateCategoryDto.cs",
+              "RelativeDocumentMoniker": "RealEstate_Dapper_Api\\Dtos\\CategoryDtos\\UpdateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\gulen\\source\\repos\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\CategoryDtos\\UpdateCategoryDto.cs",
+              "RelativeToolTip": "RealEstate_Dapper_Api\\Dtos\\CategoryDtos\\UpdateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:57:04.399Z",
               "EditorCaption": ""
             }
           ]
