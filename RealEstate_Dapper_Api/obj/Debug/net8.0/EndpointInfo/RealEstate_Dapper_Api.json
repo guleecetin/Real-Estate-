@@ -141,6 +141,119 @@
           }
         }
       }
+    },
+    "/api/WhoWeAreDetail": {
+      "get": {
+        "tags": [
+          "WhoWeAreDetail"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "WhoWeAreDetail"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateWhoWeAreDetailDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateWhoWeAreDetailDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateWhoWeAreDetailDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "WhoWeAreDetail"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "WhoWeAreDetail"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateWhoWeAreDetailDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateWhoWeAreDetailDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateWhoWeAreDetailDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WhoWeAreDetail/{id}": {
+      "get": {
+        "tags": [
+          "WhoWeAreDetail"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -149,6 +262,28 @@
         "type": "object",
         "properties": {
           "categoryName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateWhoWeAreDetailDto": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "subtitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "description1": {
+            "type": "string",
+            "nullable": true
+          },
+          "description2": {
             "type": "string",
             "nullable": true
           }
@@ -168,6 +303,32 @@
           },
           "categoryStatus": {
             "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateWhoWeAreDetailDto": {
+        "type": "object",
+        "properties": {
+          "whoWeAreDetailId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "subtitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "description1": {
+            "type": "string",
+            "nullable": true
+          },
+          "description2": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
